@@ -1,5 +1,5 @@
 # fis3-lint-stylelint_d
-a css/less/scss/sugarss linter plugin of fis3 based on eslint
+a css/less/scss/sugarss linter plugin of fis3 based on stylelint, use latest version.
 
 [![npm](https://img.shields.io/npm/v/fis3-lint-stylelint_d.svg?style=flat-square)](https://www.npmjs.com/package/fis3-lint-stylelint_d) 
 [![npm](https://img.shields.io/npm/dt/fis3-lint-stylelint_d.svg?style=flat-square)](https://www.npmjs.com/package/fis3-lint-stylelint_d) 
