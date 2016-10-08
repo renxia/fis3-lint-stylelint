@@ -1,13 +1,13 @@
-# fis3-lint-stylelint
+# fis3-lint-stylelint_d
 a css/less/scss/sugarss linter plugin of fis3 based on eslint
 
-[![npm](https://img.shields.io/npm/v/fis3-lint-stylelint.svg?style=flat-square)](https://www.npmjs.com/package/fis3-lint-stylelint) 
-[![npm](https://img.shields.io/npm/dt/fis3-lint-stylelint.svg?style=flat-square)](https://www.npmjs.com/package/fis3-lint-stylelint) 
-[![npm](https://img.shields.io/npm/dm/fis3-lint-stylelint.svg?style=flat-square)](https://www.npmjs.com/package/fis3-lint-stylelint)
+[![npm](https://img.shields.io/npm/v/fis3-lint-stylelint_d.svg?style=flat-square)](https://www.npmjs.com/package/fis3-lint-stylelint_d) 
+[![npm](https://img.shields.io/npm/dt/fis3-lint-stylelint_d.svg?style=flat-square)](https://www.npmjs.com/package/fis3-lint-stylelint_d) 
+[![npm](https://img.shields.io/npm/dm/fis3-lint-stylelint_d.svg?style=flat-square)](https://www.npmjs.com/package/fis3-lint-stylelint_d)
 
 ## usage
 
-    $ npm i -g fis3-lint-stylelint
+    $ npm i -g fis3-lint-stylelint_d
 
 ```
 // fis-conf.js
@@ -15,7 +15,7 @@ a css/less/scss/sugarss linter plugin of fis3 based on eslint
 var stylelintConf = {}; 
 
 fis.match('*.{css,scss,less,sss}}', {
-  lint: fis.plugin('stylelint', stylelintConf)
+  lint: fis.plugin('stylelint_d', stylelintConf)
 });
 ```
 
