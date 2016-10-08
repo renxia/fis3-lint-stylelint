@@ -1,6 +1,6 @@
 {
   "name": "fis3-lint-stylelint_d",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "a css linter plugin of fis3 based on stylelint",
   "main": "index.js",
   "repository": {
@@ -19,7 +19,6 @@
   "author": "fisker Cheung <lionkay@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "lodash.assign": "^4.2.0",
     "postcss": ">5.1.2",
     "stylelint": ">6.9.0",
     "stylefmt": ">4.2.3",

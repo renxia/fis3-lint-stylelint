@@ -8,7 +8,7 @@ var packageName = package.name || 'fis3-lint-stylelint';
 var spawnSync = require('child_process').spawnSync;
 var path = require('path');
 var fs = require('fs');
-var assign = require('lodash.assign');
+// var assign = require('lodash.assign');
 var log = (global.fis && fis.log) || console;
 var nodePath = 'node';
 var stylelintBin = path.normalize(path.join(__dirname, './bin/stylelint.js'));
@@ -53,7 +53,7 @@ module.exports = function(content, file, conf){
 
   console.log('stylelint:' + file.id);
 
-  var config = assign({}, conf, {
+  var config = Object.assign({}, conf, {
     formatter: 'string',
     files: file.realpath,
     extractStyleTagsFromHtml: false
