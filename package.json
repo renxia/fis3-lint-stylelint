@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fisker/fis3-lint-stylelint.git"
+    "url": "https://github.com/renxia/fis3-lint-stylelint_d.git"
   },
   "keywords": [
     "stylelint",
@@ -25,7 +25,7 @@
     "postcss-reporter": ">1.4.1"
   },
   "bugs": {
-    "url": "https://github.com/fisker/fis3-lint-stylelint/issues"
+    "url": "https://github.com/renxia/fis3-lint-stylelint_d/issues"
   },
   "readmeFilename": "README.md"
 }
